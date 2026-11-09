@@ -1,2 +1,0 @@
-letter spacing do header-title h1
-posicionamento dos itens q vou fazer com margin
