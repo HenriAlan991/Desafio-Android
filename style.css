@@ -20,8 +20,10 @@
 header{
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
     height: 165px;
+
     padding-top: 30px;
 }
+
 header h1, header p{
     
     color: white;
@@ -48,17 +50,24 @@ header p{
     color: rgba(255,255,255,0.8);
     
     width: 430px;
-    margin: 0 auto;
+    margin: 0 auto 30px;
+    
 }
 nav{
+    margin-left: 5px;
     
-    margin-top: 40px;
 }
 .header-nav{
     text-decoration: none;
     color: white;
     font-weight: 600;
     font-size: 15px;
-    padding: 16px;
+    padding: 16px 16px 18px;
     
+}
+.header-nav:hover{
+    border-radius: 8px;
+    transition-duration: 0.3s;
+    background-color: var(--cor3);
+    color: var(--cor5);
 }
