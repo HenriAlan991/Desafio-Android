@@ -3,7 +3,9 @@
     padding: 0;
     font-family: var(--fonte-normal);
 }
-
+body{
+    background-color: var(--cor1);
+}
 :root{
     --cor0: #c5ebd6;
     --cor1: #83e1ad;
@@ -78,4 +80,13 @@ h2,h3{
 }
 #sec1 h2{
     color: var(--cor5);
+}
+main{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+img{
+    width: 100%;
 }
