@@ -18,7 +18,7 @@
 
 }
 header{
-    background-color: var(--cor4);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     height: 165px;
     padding-top: 30px;
 }
