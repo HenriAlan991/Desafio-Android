@@ -19,60 +19,46 @@ body{
     --fonte-android: 'Android';
 
 }
-header{
-    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
-    height: 165px;
-
-    padding-top: 30px;
+.hd{
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));    
+    padding: 23px;
 }
 
 header h1, header p{
-    
+    text-shadow: 3px 2px 3px rgba(0,0,0,0.43);
     color: white;
+}
+header{
+    min-height: 130px;
     text-align: center;
-    
-    
 }
-.titles{
-    
 
-}
-h1{
-    font-family: var(--fonte-destaque);
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
-    text-shadow: 2px,2px,0, rgba(0,0,0,0.267);
-    font-size: 36.5px;
-    margin-bottom: 16px;
-    font-weight: 100;
-    
-}
-header p{
-    text-shadow: 2px,2px,2px, rgba(0, 0, 0, 0.319);
-    font-size: 16px;
-    color: rgba(255,255,255,0.8);
-    
-    width: 430px;
-    margin: 0 auto 30px;
-    
-}
-nav{
-    margin-left: 5px;
-    
-}
 .header-nav{
     text-decoration: none;
     color: white;
-    font-weight: 600;
-    font-size: 15px;
-    padding: 16px 16px 18px;
+    padding: 20px;
+    font-weight: 700;
+
     
 }
 .header-nav:hover{
+    background-color: var(--cor5);
+    color: var(--cor1);
     border-radius: 8px;
-    transition-duration: 0.3s;
-    background-color: var(--cor3);
-    color: var(--cor5);
+    transition: 0.18s;
+
+}
+.header-nav:active{
+    padding: 23px;
+}
+h1{
+    font-family: var(--fonte-destaque);
+    font-weight: 300;
+    font-size: 42px;
+}
+header p{
+    color: rgba(255,255,255,0.8);
+
 }
 
 h2,h3{
@@ -83,6 +69,8 @@ h2,h3{
 }
 main{
     width: 80%;
+    max-width: 1000px;
+    
     margin: auto;
     background-color: white;
     padding: 20px;
@@ -90,3 +78,5 @@ main{
 img{
     width: 100%;
 }
+
+
