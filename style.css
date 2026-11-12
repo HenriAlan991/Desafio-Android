@@ -82,13 +82,18 @@ img{
 .extra{
     background-color: var(--cor0);
     width: 100%;
-    border-radius: 12px;
+    border-radius: 30px;
     margin: 0 auto;
 }
-.header-sec3 h2{
+#sec3-h2{
     background-color: var(--cor2);
     font-family: var(--fonte-normal);
     color: white;
+    
+}
+#sec3-h2, article{
+    padding: 12px;
+    
 }
 li{
     list-style-type: none;
