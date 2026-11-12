@@ -18,6 +18,7 @@ body{
     --fonte-destaque: "Bebas Neue";
     --fonte-android: 'Android';
 
+    --border: 16px;
 }
 .hd{
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));    
@@ -82,13 +83,15 @@ img{
 .extra{
     background-color: var(--cor0);
     width: 100%;
-    border-radius: 30px;
+    border-radius: var(--border);
     margin: 0 auto;
+
 }
 #sec3-h2{
     background-color: var(--cor2);
     font-family: var(--fonte-normal);
     color: white;
+    border-radius: var(--border) var(--border) 0 0;
     
 }
 #sec3-h2, article{
@@ -97,4 +100,16 @@ img{
 }
 li{
     list-style-type: none;
+    margin-right: 100px;
+    
+}
+ul{
+
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    
+    flex-wrap: wrap;
+    height: 126px;
+    padding: 20px;
 }
